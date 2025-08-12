@@ -8,11 +8,11 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const cinematicShowcase = [
   {
     type: 'image',
-    path: '/images/code-breakers/code_breaker.JPG',
+    path: 'images/code-breakers/code_breaker.JPG',
   },
   {
     type: 'video',
-    path: '/videos/clip.mp4', // Your video is back!
+    path: 'videos/clip.mp4', // Your video is back!
   },
   {
     type: 'image',
@@ -20,7 +20,7 @@ const cinematicShowcase = [
   },
   {
     type: 'image',
-    path: '/images/cipher-trail/cipher_trail.jpeg',
+    path: 'images/cipher-trail/cipher_trail.jpeg',
   },
 ];
 
@@ -29,12 +29,12 @@ const featuredEvents = [
   {
     title: 'Code-Breakers: Live Hacking Event',
     description: 'Our members dive deep into penetration testing techniques in a controlled, secure environment.',
-    image: '/images/code-breakers/code_breaker.JPG',
+    image: 'images/code-breakers/code_breaker.JPG',
   },
   {
     title: 'Cipher-Trail: National CTF Competition',
     description: 'Teams compete to solve complex cybersecurity challenges, testing their skills against the clock and each other.',
-    image: '/images/cipher-trail/cipher_trail.jpeg',
+    image: 'images/cipher-trail/cipher_trail.jpeg',
   },
   {
     title: 'Workshop: Building Secure IoT Devices',
