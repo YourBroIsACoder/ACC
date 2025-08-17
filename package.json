@@ -10,7 +10,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+     "build:docker": "vite build --base=/",
+  "build:github": "vite build --base=/ACC/"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
