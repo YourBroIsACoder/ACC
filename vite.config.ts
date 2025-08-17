@@ -3,10 +3,11 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  // We remove the 'base' property from here.
-  // It will be provided by the build script.
+  // This is the most important line for GitHub Pages.
+  // It tells Vite to add "/ACC" in front of all asset paths during the build.
+  base: '/ACC/', 
+
   plugins: [react()],
   
   optimizeDeps: {
