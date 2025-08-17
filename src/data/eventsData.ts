@@ -46,16 +46,16 @@ export const previousEvents: Event[] = [
     time: '10:00 AM - 5:00 PM',
     venue: 'AX-506',
     description: 'Hands-on workshop focusing on red team operations and adversary simulations.',
-    image: '/images/cipher-trail/cipher_trail.jpeg',
+    image: 'images/cipher-trail/cipher_trail.jpeg',
     type: 'workshop',
     // --- EXAMPLE DATA FOR THE DETAIL PAGE ---
     details: 'Our flagship Red Team workshop saw over 80 participants engage in a full-day immersive experience. Attendees learned the fundamentals of penetration testing, from reconnaissance and vulnerability scanning to exploitation and post-exploitation techniques, all within a secure, sandboxed lab environment.',
     galleryImages: [
-      '/images/cipher-trail/1.jpeg',
-      '/images/cipher-trail/2.jpeg',
-      '/images/cipher-trail/3.jpeg',
-      '/images/cipher-trail/4.jpeg',
-      '/images/cipher-trail/5.jpeg'
+      'images/cipher-trail/1.jpeg',
+      'images/cipher-trail/2.jpeg',
+      'images/cipher-trail/3.jpeg',
+      'images/cipher-trail/4.jpeg',
+      'images/cipher-trail/5.jpeg'
     ],
     // --- JUST THE FILENAME ---
     pdfFilename: 'pitch_deck.pdf',
@@ -72,10 +72,10 @@ export const previousEvents: Event[] = [
     // --- EXAMPLE DATA FOR THE DETAIL PAGE ---
     details: 'Our flagship Red Team workshop saw over 80 participants engage in a full-day immersive experience. Attendees learned the fundamentals of penetration testing, from reconnaissance and vulnerability scanning to exploitation and post-exploitation techniques, all within a secure, sandboxed lab environment.',
     galleryImages: [
-      '/images/code-breakers/2.JPG',
-      '/images/code-breakers/1.JPG',
-      '/images/code-breakers/4.JPG',
-      '/images/code-breakers/3.JPG',
+      'images/code-breakers/2.JPG',
+      'images/code-breakers/1.JPG',
+      'images/code-breakers/4.JPG',
+      'images/code-breakers/3.JPG',
     ] },
     
   // ... more past events
