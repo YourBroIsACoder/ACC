@@ -5,15 +5,20 @@
   "type": "module",
   "homepage": "https://YourBroIsACoder.github.io/ACC/",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-     "build:docker": "vite build --base=/",
-  "build:github": "vite build --base=/ACC/"
-  },
+  "dev": "vite",
+
+  "// This is your standard build command (for Docker or previewing)": "",
+  "build": "vite build --base=/",
+
+  "// This is your GitHub Pages build command": "",
+  "build:github": "vite build --base=/ACC/",
+
+  "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+  "preview": "vite preview",
+
+  "// --- THIS IS YOUR NEW, ONE-STEP DEPLOY COMMAND --- //": "",
+  "deploy:github": "npm run build:github && gh-pages -d dist"
+},
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@react-three/drei": "^9.122.0",
