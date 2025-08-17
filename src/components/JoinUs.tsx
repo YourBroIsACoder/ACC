@@ -41,7 +41,7 @@ export default function JoinUs() {
           className="text-center mb-20 pt-16"
         >
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            Become an Official <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Cybercell Member</span>
+            Become an Official <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">CELLMATE !</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Want in on the inner circle? Unlock skills, perks, and bragging rights that last the whole year.

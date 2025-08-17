@@ -14,7 +14,7 @@ export default function PastEventPage({ id, setActiveSection }: PastEventPagePro
   const event = previousEvents.find(e => e.id.toString() === id);
 
   const handleNavigate = (section: string) => {
-    const path = `/${section}`;
+    const path = (`/ACC/${section}`).replace('/ACC/home', '/ACC/');
     window.history.pushState({}, '', path);
     setActiveSection(section);
   };

@@ -42,9 +42,9 @@ export const previousEvents: Event[] = [
   {
     id: 101,
     title: 'Cipher Trail',
-    date: '2023-09-14',
+    date: '2025-02-13',
     time: '10:00 AM - 5:00 PM',
-    venue: 'Cyber Hall A',
+    venue: 'AX-506',
     description: 'Hands-on workshop focusing on red team operations and adversary simulations.',
     image: '/images/cipher-trail/cipher_trail.jpeg',
     type: 'workshop',
@@ -63,8 +63,8 @@ export const previousEvents: Event[] = [
   {
     id: 102,
     title: 'Code-Breakers: Live Hacking Event',
-   date: '2023-09-14',
-    time: '10:00 AM - 5:00 PM',
+   date: '2024-09-05',
+    time: '2:30 PM - 4:30 PM',
     venue: 'Cyber Hall A',
     description: 'Hands-on workshop focusing on red team operations and adversary simulations.',
     image: '/images/code-breakers/code_breaker.JPG',

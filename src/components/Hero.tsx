@@ -8,11 +8,11 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const cinematicShowcase = [
   {
     type: 'image',
-    path: '/images/code-breakers/code_breaker.JPG',
+    path: 'images/code-breakers/code_breaker.JPG',
   },
   {
     type: 'video',
-    path: '/videos/clip.mp4', // Your video is back!
+    path: 'videos/clip.mp4', // Your video is back!
   },
   {
     type: 'image',
@@ -20,7 +20,7 @@ const cinematicShowcase = [
   },
   {
     type: 'image',
-    path: '/images/cipher-trail/cipher_trail.jpeg',
+    path: 'images/cipher-trail/cipher_trail.jpeg',
   },
 ];
 
@@ -29,12 +29,12 @@ const featuredEvents = [
   {
     title: 'Code-Breakers: Live Hacking Event',
     description: 'Our members dive deep into penetration testing techniques in a controlled, secure environment.',
-    image: '/images/code-breakers/code_breaker.JPG',
+    image: 'images/code-breakers/code_breaker.JPG',
   },
   {
     title: 'Cipher-Trail: National CTF Competition',
     description: 'Teams compete to solve complex cybersecurity challenges, testing their skills against the clock and each other.',
-    image: '/images/cipher-trail/cipher_trail.jpeg',
+    image: 'images/cipher-trail/cipher_trail.jpeg',
   },
   {
     title: 'Workshop: Building Secure IoT Devices',
@@ -111,11 +111,11 @@ export default function Hero({ setActiveSection }: HeroProps) {
         <div className="relative z-10 p-4">
           <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}>
             <div className="flex justify-center items-center gap-2">
-              <img src="/images/fcritlogo.png" alt="Institute Logo" className="h-10 w-10 object-contain" />
+              <img src="images/fcritlogo.png" alt="Institute Logo" className="h-10 w-10 object-contain" />
               <span className="text-xl font-semibold text-white">Fr. C Rodrigues Institute of Technology</span>
             </div>
             <p className="text-base text-gray-300 mb-2">presents</p>
-            <img src="/images/text1.png" alt="Agnel CyberCell" className="h-48 md:h-64 w-auto mx-auto object-contain block my-4" style={{ filter: 'drop-shadow(0 5px 15px rgba(0,0,0,0.5))' }} />
+            <img src="images/text1.png" alt="Agnel CyberCell" className="h-48 md:h-64 w-auto mx-auto object-contain block my-4" style={{ filter: 'drop-shadow(0 5px 15px rgba(0,0,0,0.5))' }} />
             <p className="text-2xl md:text-3xl text-gray-200 mb-8 max-w-2xl mx-auto font-light" style={{ textShadow: '0 2px 10px rgba(0,0,0,0.8)' }}>
               We don't just talk about security—we build it, break it, and make it better.
             </p>

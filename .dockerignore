@@ -1,0 +1,19 @@
+# Git
+.git
+.gitignore
+
+# Dependencies
+node_modules
+
+# Build output
+dist
+build
+
+# Docker
+DockerFile
+.dockerignore
+
+# Misc
+.env
+.DS_Store
+npm-debug.log

@@ -33,7 +33,7 @@ export default function Header({ activeSection, setActiveSection }: HeaderProps)
           <div className="flex items-center space-x-3">
             <div className="w-10 h-10 rounded-lg flex items-center justify-center">
                 <img
-    src="/images/logo1.png"
+    src="images/logo1.png"
     alt="Agnel CyberCell Logo"
     className="w-16 h-16 object-contain"
   />

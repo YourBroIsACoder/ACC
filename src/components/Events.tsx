@@ -114,7 +114,7 @@ export default function Events({ setActiveSection }: { setActiveSection: (sectio
                   <span className="font-bold text-blue-400 mb-1">{report.year} Report</span>
                   <h4 className="text-xl font-bold text-white mb-2">{report.title}</h4>
                   <p className="text-gray-400 mb-4 flex-grow">{report.summary}</p>
-                  <a href={`/${report.pdfFilename}`} target="_blank" rel="noopener noreferrer" className="mt-auto self-start inline-flex items-center gap-2 text-white bg-blue-600 hover:bg-blue-700 font-semibold py-2 px-4 rounded-lg">
+                  <a href={`${report.pdfFilename}`} target="_blank" rel="noopener noreferrer" className="mt-auto self-start inline-flex items-center gap-2 text-white bg-blue-600 hover:bg-blue-700 font-semibold py-2 px-4 rounded-lg">
                     <FileText size={18} /> View Report
                   </a>
                 </div>
