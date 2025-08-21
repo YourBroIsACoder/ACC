@@ -1,3 +1,4 @@
+import firebase from 'firebase/compat/app'; // You'll need to add this import at the top of the file
 export interface TeamMember {
   id: number;
   name: string;
@@ -17,13 +18,21 @@ export interface Event {
   type: 'workshop' | 'conference' | 'hackathon' | 'meetup';
 }
 
+
+
+// ... your other interfaces (TeamMember, Event, etc.)
+
 export interface NewsletterItem {
-  id: number;
+  id: string; // Changed from number to string
   title: string;
   summary: string;
   image: string;
-  date: string;
+  date: firebase.firestore.Timestamp; // Changed from string to Firestore Timestamp
   source: string;
+  pdfURL: string; // Optional field for PDF URL
+  // --- Add the fields needed for the modal ---
+  fullText?: string;
+  galleryImages?: string[];
 }
 
 export interface Announcement {

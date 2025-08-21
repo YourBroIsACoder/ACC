@@ -5,20 +5,16 @@
   "type": "module",
   "homepage": "https://YourBroIsACoder.github.io/ACC/",
   "scripts": {
-  "dev": "vite",
-
-  "// This is your standard build command (for Docker or previewing)": "",
-  "build": "vite build --base=/",
-
-  "// This is your GitHub Pages build command": "",
-  "build:github": "vite build --base=/ACC/",
-
-  "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-  "preview": "vite preview",
-
-  "// --- THIS IS YOUR NEW, ONE-STEP DEPLOY COMMAND --- //": "",
-  "deploy:github": "npm run build:github && gh-pages -d dist"
-},
+    "dev": "vite",
+    "// This is your standard build command (for Docker or previewing)": "",
+    "build": "vite build --base=/",
+    "// This is your GitHub Pages build command": "",
+    "build:github": "vite build --base=/ACC/",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "// --- THIS IS YOUR NEW, ONE-STEP DEPLOY COMMAND --- //": "",
+    "deploy:github": "npm run build:github && gh-pages -d dist"
+  },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@react-three/drei": "^9.122.0",
@@ -30,8 +26,10 @@
     "jsonwebtoken": "^9.0.2",
     "lucide-react": "^0.344.0",
     "next": "^15.4.5",
+    "pdfjs-dist": "^5.4.54",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-pdf": "^10.1.0",
     "three": "^0.165.0"
   },
   "devDependencies": {

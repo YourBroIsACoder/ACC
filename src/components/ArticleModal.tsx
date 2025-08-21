@@ -3,20 +3,11 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 
-// Define a type for your article data for better code quality
-type Article = {
-  id: number;
-  title: string;
-  summary: string;
-  fullText: string;
-  image: string;
-  galleryImages: string[];
-  date: string;
-  source: string;
-};
+// Import the SHARED type from your types file
+import { NewsletterItem } from '../types'; // Adjust path if needed (e.g., ../types/index.ts)
 
 interface ArticleModalProps {
-  article: Article | null;
+  article: NewsletterItem | null;
   onClose: () => void;
 }
 
@@ -48,17 +39,18 @@ export default function ArticleModal({ article, onClose }: ArticleModalProps) {
 
             {/* Modal Content - Scrollable */}
             <div className="p-8 overflow-y-auto">
-              {/* --- COPY PROTECTION --- */}
-              {/* The 'select-none' class disables text selection. */}
-              {/* The 'onContextMenu' disables right-clicking. */}
+              {/* Guaranteed Copy Protection */}
               <div 
-                className="prose prose-invert prose-lg max-w-none" 
-                 style={{ userSelect: 'none', WebkitUserSelect: 'none' }} 
+                className="prose prose-invert prose-lg max-w-none"
+                style={{ userSelect: 'none', WebkitUserSelect: 'none' }} 
                 onContextMenu={(e) => e.preventDefault()}
               >
                 <img src={article.image} alt={article.title} className="w-full aspect-video object-cover rounded-lg mb-6" />
 
-                <p className="text-gray-300 leading-relaxed">{article.fullText}</p>
+                {/* Check if fullText exists before rendering */}
+                {article.fullText && (
+                  <p className="text-gray-300 leading-relaxed">{article.fullText}</p>
+                )}
 
                 {article.galleryImages && article.galleryImages.length > 0 && (
                   <>

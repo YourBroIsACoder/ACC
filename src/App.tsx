@@ -16,6 +16,7 @@ import Admin from './pages/admin';
 
 // --- NEW: Import the PastEventPage component ---
 import PastEventPage from './components/PastEventPage'; 
+import AdminLogin from './pages/AdminLogin';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -61,8 +62,10 @@ function App() {
       // --- IMPORTANT: Pass setActiveSection down to Events ---
       case 'events':
         return <Events setActiveSection={setActiveSection} />;
-      case 'admin':
-        return <Admin />;
+        case 'admin':
+        return <Admin setActiveSection={setActiveSection} />;
+      case 'admin-login': // Add this new case
+        return <AdminLogin setActiveSection={setActiveSection} />;
       case 'contact':
         return <Contact />;
       case 'newsletter':

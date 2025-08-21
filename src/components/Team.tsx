@@ -20,13 +20,13 @@ const convenors: TeamMember[] = [
     id: 101,
     name: "Mr. Mritunjay Ojha",
     designation: "Convenor",
-    image: "/images/Mritunjay_Sir.jpg"
+    image: "images/Mritunjay_Sir.jpg"
   },
   {
     id: 102,
     name: "Mr. Raj Ramchandani",
     designation: "Convenor",
-    image: "/images/Raj_Sir.jpg"
+    image: "images/Raj_Sir.jpg"
   }
 ];
 
