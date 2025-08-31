@@ -94,7 +94,7 @@ export default function Newsletter() {
       <div
         className="absolute inset-0 bg-cover bg-center opacity-1"
         style={{
-          backgroundImage: `url(/images/cipher-trail/IMG_9449.jpeg)`,
+          backgroundImage: `url(images/cipher-trail/IMG_9449.jpeg)`,
         }}
       ></div>
 
