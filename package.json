@@ -13,7 +13,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "// --- THIS IS YOUR NEW, ONE-STEP DEPLOY COMMAND --- //": "",
-    "deploy:github": "npm run build:github && gh-pages -d dist"
+    "deploy:github": "npm run build:github && copy dist\\index.html dist\\404.html && gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
