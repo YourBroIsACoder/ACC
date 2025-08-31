@@ -67,7 +67,7 @@ export const previousEvents: Event[] = [
     time: '2:30 PM - 4:30 PM',
     venue: 'Cyber Hall A',
     description: 'Hands-on workshop focusing on red team operations and adversary simulations.',
-    image: '/images/code-breakers/code_breaker.JPG',
+    image: 'images/code-breakers/code_breaker.JPG',
     type: 'workshop',
     // --- EXAMPLE DATA FOR THE DETAIL PAGE ---
     details: 'Our flagship Red Team workshop saw over 80 participants engage in a full-day immersive experience. Attendees learned the fundamentals of penetration testing, from reconnaissance and vulnerability scanning to exploitation and post-exploitation techniques, all within a secure, sandboxed lab environment.',
