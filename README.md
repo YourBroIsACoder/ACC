@@ -125,9 +125,9 @@ This build is configured for a production server running at the root of a domain
 
 ## 👥 Contributors
 
-*   **[Your Name]** - Lead Developer
-*   **[Friend's Name]** - UI/UX Design
-*   ... (add other contributors)
+*   **[Akshath Narvekar]** 
+*   **[Yash Patil]**
+*  
 
 ---
 
