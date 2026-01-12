@@ -35,19 +35,19 @@ const cinematicShowcase = [
 // --- DATA FOR THE INFORMATIONAL CAROUSEL ---
 const featuredEvents = [
   {
-    title: 'Code-Breakers: Live Hacking Event',
+    title: 'CodeBreakers WANTED',
     description: 'Our members dive deep into penetration testing techniques in a controlled, secure environment.',
     image: 'images/code-breakers/code_breaker.JPG',
   },
   {
-    title: 'Cipher-Trail: National CTF Competition',
+    title: 'Cipher-Trail: Mission Pursuit',
     description: 'Teams compete to solve complex cybersecurity challenges, testing their skills against the clock and each other.',
     image: 'images/cipher-trail/cipher_trail.jpeg',
   },
   {
-    title: 'Workshop: Building Secure IoT Devices',
-    description: 'We designed and built a rover with secure communication protocols from the ground up using Raspberry Pi.',
-    image: 'https://images.pexels.com/photos/4386341/pexels-photo-4386341.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    title: 'Pokemon CyberQuest',
+    description: 'An engaging and fast-paced ctf with a fun pokemon theme, designed to teach and challenge participants in cybersecurity concepts.',
+    image: 'images/pokemon.jpg',
   },
 ];
 
