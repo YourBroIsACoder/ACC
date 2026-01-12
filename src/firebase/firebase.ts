@@ -7,13 +7,13 @@ import 'firebase/compat/storage';
 
 // Your public Firebase configuration object remains the same.
 const firebaseConfig = {
-  apiKey: "AIzaSyBHdau7i8Azx6s4U8N5wAozgGD86zY1CcY",
-  authDomain: "acc-website-2210d.firebaseapp.com",
-  projectId: "acc-website-2210d",
-  storageBucket: "acc-website-2210d.firebasestorage.app",
-  messagingSenderId: "1028991703610",
-  appId: "1:1028991703610:web:6dab80e85b0d7e3255b303",
-  measurementId: "G-MWG04VTLHW"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
 
 // --- INITIALIZE THE PRIMARY APP (for regular users) ---
