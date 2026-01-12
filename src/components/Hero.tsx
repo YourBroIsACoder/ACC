@@ -16,11 +16,19 @@ const cinematicShowcase = [
   },
   {
     type: 'image',
+    path: 'images/grp.jpg',
+  },
+  {
+    type: 'image',
     path: 'images/code-breakers/1.JPG',
   },
   {
     type: 'image',
     path: 'images/cipher-trail/cipher_trail.jpeg',
+  },
+  {
+    type: 'image',
+    path: 'images/IMG_3258.jpg',
   },
 ];
 

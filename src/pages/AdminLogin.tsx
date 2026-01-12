@@ -1,7 +1,7 @@
 // src/pages/AdminLogin.tsx
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { auth } from '../firebase/firebase';
+import { adminAuth } from '../firebase/firebase';
 
 export default function AdminLogin({ setActiveSection }: { setActiveSection: (section: string) => void }) {
   const [email, setEmail] = useState('');
@@ -17,7 +17,7 @@ export default function AdminLogin({ setActiveSection }: { setActiveSection: (se
   const handleAdminLogin = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      await auth.signInWithEmailAndPassword(email, password);
+      await adminAuth.signInWithEmailAndPassword(email, password);
       handleNavigate('admin');
     } catch (err) {
       setError('Invalid admin credentials.');

@@ -32,8 +32,9 @@
   {
     "id": 7,
     "name": "Akshath Narvekar",
-    "designation": "Technical Team Member",
-    "image": "images/25-26/Akshath1.jpg"
+    "designation": "Technical Co-Head",
+    "image": "images/25-26/Akshath1.jpg",
+    "developer": true
   },
   {
     "id": 8,
@@ -77,6 +78,13 @@
     "designation": "PR Team Member",
     "image": "images/25-26/Advik.jpg"
   },
+   {
+    "id": 15,
+    "name": "Samarthya Deore",
+    "designation": "PR Team Member",
+    "image": "images/25-26/Saamu.jpg"
+  },
+
   {
     "id": 16,
     "name": "Riya Raju",
@@ -92,7 +100,7 @@
   {
     "id": 18,
     "name": "Nishan Menezes",
-    "designation": "Finance & Sponsorship Team Member",
+    "designation": "Treasurer",
     "image": "images/25-26/Nishan.jpg"
   }
 ]

@@ -15,7 +15,8 @@ export interface Event {
   description: string;
   image: string;
   time: string;
-  type: 'workshop' | 'conference' | 'hackathon' | 'meetup';
+  type: 'upcoming' | 'past';
+  addedAt: firebase.firestore.Timestamp;
 }
 
 
@@ -39,6 +40,13 @@ export interface Announcement {
   id: number;
   title: string;
   content: string;
-  date: string;
-  priority: 'high' | 'medium' | 'low';
+  date: firebase.firestore.Timestamp;
+  
+}
+export interface AnnualReport {
+  id: string;
+  year: string;
+  title: string;
+  pdfURL: string;
+  image: string;
 }

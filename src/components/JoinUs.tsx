@@ -104,7 +104,7 @@ export default function JoinUs() {
     className="text-center mt-8"
 >
     <a
-        href="YOUR_GOOGLE_FORM_LINK_HERE" // <-- PASTE YOUR MEMBERSHIP FORM LINK
+        href="https://forms.gle/6XfYY4U2iRtzi35A7" // <-- PASTE YOUR MEMBERSHIP FORM LINK
         target="_blank"
         rel="noopener noreferrer"
         className="inline-block py-4 px-10 rounded-lg font-semibold text-white bg-blue-600 hover:bg-blue-700 transition-all duration-300 transform hover:scale-105"

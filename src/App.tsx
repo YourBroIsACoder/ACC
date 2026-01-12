@@ -63,6 +63,8 @@ function App() {
       case 'events':
         return <Events setActiveSection={setActiveSection} />;
         case 'admin':
+          
+        console.log("MATCH FOUND: Rendering <Admin /> component."); // DEBUG LOG
         return <Admin setActiveSection={setActiveSection} />;
       case 'admin-login': // Add this new case
         return <AdminLogin setActiveSection={setActiveSection} />;
@@ -73,6 +75,7 @@ function App() {
       case 'join-us': // Make sure this matches the string used in Header/Hero
         return <JoinUs />;
       default:
+           console.log("No match found, rendering default (Hero)."); // DEBUG LOG
         return <><Hero setActiveSection={setActiveSection} /><Announcements /></>;
     }
   };
@@ -81,7 +84,7 @@ function App() {
   <div className="bg-gray-800 min-h-screen">
       <Background3D />
       <Header activeSection={activeSection} setActiveSection={setActiveSection} />
-      <main className="relative z-10">{renderSection()}</main>
+      <main className="relative z-10 flex-grow">{renderSection()}</main>
       <Footer />
     </div>
   );
